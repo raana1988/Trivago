@@ -1,0 +1,118 @@
+﻿ body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container1 {
+            background-color: #E0E6EC;
+            text-align: center;
+        }
+
+        #lineb {
+            background: #056bb5;
+            height: 5px;
+        }
+
+        #headern {
+            background: #fff;
+            min-height: 100px;
+        }
+
+        .box {
+            background: #fff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #B3B3B3;
+        }
+
+        #logo {
+            float: none;
+            margin: 15px;
+        }
+
+        #nv {
+            /*float: left;*/
+            margin-top: 0px;
+        }
+
+        #txtbox {
+            padding-left: 10px;
+            width: 48%;
+        }
+
+        .titr {
+            color: #2A81F1;
+            font-weight: 600;
+            text-align: center;
+            padding-left: 10px;
+            /*padding-bottom:10px;*/
+        }
+
+        .btnrow {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+        }
+
+        .btnview {
+            background: #056bb5;
+            color: white;
+            border-radius: 4px;
+            border: solid 1px #2A81F1;
+        }
+
+        .btnmore {
+            width: 25px;
+            height: 25px;
+            background: #056bb5;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            font-weight: 700;
+            padding-top: 3px;
+            border: 1px solid #5193C1;
+        }
+
+        #social {
+            text-align: center;
+        }
+
+        .price {
+            color: #06a41a;
+        }
+
+        .box1 {
+            background:#fff;
+        }
+        .city {
+            font-size: 13px;
+             width: 193px;
+        }
+        .star {
+            width:35px;
+        }
+        #pfooter {
+            padding: 10px 5px 10px 5px;
+            font-size: 13px;
+            color: #808080;
+            text-align: left;
+        }
+
+        @media screen and (min-width: 480px) {
+            #nv {
+                /*float: left;*/
+                margin-top: 27px;
+            }
+
+            #logo {
+                float: left;
+            }
+
+            .titr {
+                text-align: left;
+            }
+
+            #social {
+                text-align: left;
+            }
+        }
